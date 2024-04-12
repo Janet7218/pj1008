@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="logoimg">
+        <img src="./image/LOGO24.png">
+      </div>
+      <div class="nav-top">
+        <div class="d-flex justify-content-end">
+          <ul class="nav d-flex flex-row me-1">
+            <li class="nav-item me-3 me-lg-0">
+              <form class="input-group">
+                <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+                  aria-describedby="search-addon" />
+                <div class="input-group-text">
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-search" viewBox="0 0 16 16">
+                    <path
+                      d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                  </svg>
+                </div>
+              </form>
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link text-dark" href="#"><i class="fas fa-cog mx-1"></i> 購物車<svg
+                  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                </svg></a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+                data-mdb-toggle="dropdown" aria-expanded="false"> <i class="fas fa-user mx-1"></i> 會員登入 <svg
+                  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-person-fill" viewBox="0 0 16 16">
+                  <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                </svg></a>
+              <!-- Dropdown menu -->
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#">會員頁面</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="#">登出</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- <div class="container"> -->
+    <div class="container">
+      <div class="black-bar">
+        <ul class="nav-bt nav d-flex justify-content-end">
+          <li class="nav-item fs-5 fw-semibold">
+            <a class="nav-link" href="#">首頁</a>
+          </li>
+          </li>
+          <li class="nav-item fs-5 fw-semibold">
+            <a class="nav-link" href="#">金屬貼</a>
+          </li>
+          </li>
+          <li class="nav-item fs-5 fw-semibold">
+            <a class="nav-link" href="#">特效件</a>
+          </li>
+          <li class="nav-item fs-5 fw-semibold">
+            <a class="nav-link" href="#">地台</a>
+          </li>
+          <li class="nav-item fs-5 fw-semibold">
+            <a class="nav-link" href="#">工具及周邊商品</a>
+          </li>
+          <li class="nav-item fs-5 fw-semibold">
+            <a class="nav-link" href="#">聯絡我們</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <section1>
+    <div class="bann01 container">
+      <img src="./image/banner-4.jpg" style="width: 1295px; height: auto;">
+    </div>
+  </section1>
+
+  <section2 class="section2">
+    <div class="container">
+      <ul class="nav nav-tabs" role="tablist">
+       <li class="nav-item">
+          <a class="nav-link active fs-4" data-toggle="tab" href="#home">工具</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fs-4" data-toggle="tab" href="#menu1">周邊產品</a>
+        </li>
+      </ul>
+
+
+      <section class="box-30">
+        <div class="container">
+          <!-- <h2 class="text-center mb-4 fw-bold">專用地台</h2> -->
+          <div class="row">
+            <div class="col-sm-6 col-md-3 mb-4">
+              <div class="card bg-light p-1">
+                <img src="./image/tools/TOOLS01 (1).jpg" alt=" href="#" class="card-img-top w-100">
+                <div class="card-body">
+                  <p class="text-black fs-4 text-left">模型專用  湯口處理  菱形打磨條</p>
+                  <p class="text-muted fs-5 text-left">修補工具</p>
+                  <h3 class="card-text text-danger font-weight-bold">NT$&nbsp;60</h3>
+                  <a href="#" class="btn btn-dark w-100">加入購物車</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3 mb-4">
+              <div class="card bg-light p-1">
+                <img src="./image/tools/TOOLS02 (1).jpg" alt="第一關：石器時代" href="#" class="card-img-top w-100">
+                <div class="card-body">
+                  <p class="text-black fs-4 text-left">模型專用 湯口處理 橢圓形打磨條</p>
+                  <p class="text-muted fs-5 text-left">修補工具</p>
+                  <h3 class="card-text text-danger font-weight-bold">NT$&nbsp;60</h3>
+                  <a href="#" class="btn btn-dark w-100">加入購物車</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3 mb-4">
+              <div class="card bg-light p-1">
+                <img src="./image/tools/TOOLS03 (1).jpg" alt="第一關：石器時代" href="#" class="card-img-top w-100">
+                <div class="card-body">
+                  <p class="text-black fs-4 text-left">模型專用  打磨器 四面打磨磚</p>
+                  <p class="text-muted fs-5 text-left">修補工具</p>
+                  <h3 class="card-text text-danger font-weight-bold">NT$&nbsp;50</h3>
+                  <a href="#" class="btn btn-dark w-100">加入購物車</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3 mb-4">
+              <div class="card bg-light p-1">
+                <img src="./image/tools/TOOLS04.jpg" alt="第一關：石器時代" href="#" class="card-img-top w-100">
+                <div class="card-body">
+                  <p class="text-black fs-4 text-left">USTAR 優速達 斜口鉗 斜口剪 保護套</p>
+                  <p class="text-muted fs-5 text-left">單一尺寸 究極 神之手</p>
+                  <h3 class="card-text text-danger font-weight-bold">NT$&nbsp;90</h3>
+                  <a href="#" class="btn btn-dark w-100">加入購物車</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+      </section>
+
+      <!-- <ul class="pagination justify-content-center">
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">«</span>
+          </a>
+        </li>
+        <li class="page-item disabled">
+          <a class="page-link" href="#">1</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">2</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">3</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">»</span>
+          </a>
+        </li>
+      </ul> -->
+</body>
+
+<footer>
+  <div>
+    <div class="container">
+      <img class="logoimg-bt " src="./image/LOGO24.png" style="width: 200px; height: auto;">
+    </div>
+    <div class="container container-low ">
+      <!-- <div class="contactbox">2024</div> -->
+
+      <!-- <div class="borderfr"> -->
+
+      <div class="contactmail">聯絡信箱：aygedsld@gmail.com</div>
+      <div class="copyright">
+        COPYRIGHT © TOYSYEH. ALL RIGHTS RESERVED.
+      </div>
+    </div>
+  </div>
+</footer>
+
+</html>

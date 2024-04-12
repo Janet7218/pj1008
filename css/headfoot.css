@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(246, 245, 243);
+    /* height:100%; */
+    }
+    header{
+        /* position:fixed; */
+    }
+    .nav-bt {
+        position: absolute;
+        margin: 38px;
+        width: auto;
+        z-index: 1;
+        margin-left: 40rem;
+    }
+    
+    .nav-top {
+        margin-top: 12px;
+    }
+    
+    .nav-link {
+        color: white;
+    }
+    
+    .black-bar {
+        color: white;
+        margin-top: 15px;
+        height: 108px;
+        background-color: black;
+        clip-path: polygon(0% 54px, 350px 54px, 404px 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+    
+    .logoimg {
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 3rem;
+        rotate: -8deg;
+        z-index: 1;
+    }
+    
+    .container-low {
+        position: relative;
+        height: 200px;
+        background-color: rgb(0, 0, 0);
+        overflow: hidden;
+    }
+    
+    
+    .logoimg-bt {
+        position: absolute;
+        /* text-align: center; */
+        margin-left: 50vw;
+        /* margin-right: auto; */
+        transform: translate(-50%);
+        margin-top: -25px;
+        z-index: 1;
+        rotate:-10deg;
+    
+    }
+    
+    .copyright {
+        line-height: 11.938rem;
+        color: white;
+        text-align: center;
+        vertical-align: text-bottom;
+    }
+    
+    .borderfr {
+        border: 7px solid white;
+        border-radius: 20px;
+        width: 75%;
+        box-sizing: border-box;
+        height: 11.938rem;
+        position: absolute;
+        margin-left: 12vw;
+        /* transform: translate(0%, -10%); */
+        bottom: -3.625rem;
+        left: 0;
+        overflow:hidden;
+    
+    }
+    
+    .contactmail {
+        position: absolute;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-weight:bold;
+        margin-left: 13vw;
+        margin-top: 3%;
+        transform: translate(0%, -50%);
+        background-color:white;
+        /* padding:8px; */
+        width:350px;
+      height:40px;
+      padding-top:6px;
+      border-radius: 15px 15px 0px 0; 
+    }

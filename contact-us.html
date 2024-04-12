@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/memberstyle.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>會員登入</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="logoimg">
+        <img src="./image/LOGO24.png">
+      </div>
+      <div class="nav-top">
+        <div class="d-flex justify-content-end">
+          <ul class="nav d-flex flex-row me-1">
+            <li class="nav-item me-3 me-lg-0">
+              <form class="input-group">
+                <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+                  aria-describedby="search-addon" />
+                <div class="input-group-text">
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-search" viewBox="0 0 16 16">
+                    <path
+                      d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                  </svg>
+                </div>
+              </form>
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link text-dark" href="#"><i class="fas fa-cog mx-1"></i> 購物車<svg
+                  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                </svg></a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+                data-mdb-toggle="dropdown" aria-expanded="false"> <i class="fas fa-user mx-1"></i> 會員登入 <svg
+                  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-person-fill" viewBox="0 0 16 16">
+                  <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                </svg></a>
+              <!-- Dropdown menu -->
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#">會員頁面</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="#">登出</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- <div class="container"> -->
+    <div class="container">
+      <div class="black-bar">
+        <ul class="nav-bt nav d-flex justify-content-end">
+          <li class="nav-item fs-5 fw-semibold">
+            <a class="nav-link" href="#">首頁</a>
+          </li>
+          </li>
+          <li class="nav-item fs-5 fw-semibold">
+            <a class="nav-link" href="#">金屬貼</a>
+          </li>
+          </li>
+          <li class="nav-item fs-5 fw-semibold">
+            <a class="nav-link" href="#">特效件</a>
+          </li>
+          <li class="nav-item fs-5 fw-semibold">
+            <a class="nav-link" href="#">地台</a>
+          </li>
+          <li class="nav-item fs-5 fw-semibold">
+            <a class="nav-link" href="#">工具及周邊商品</a>
+          </li>
+          <li class="nav-item fs-5 fw-semibold">
+            <a class="nav-link" href="#">聯絡我們</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+
+  <section class="Material-contact-section section-padding section-dark justify-content-md-center">
+    <div class="container">
+        <div class="row justify-content-center">
+            <!-- Section Titile -->
+            <div class="col-md-6 p-3 animated justify-content-md-center">
+                <h1 class="section-title justify-content-md-center fw-bold">聯絡我們</h1>
+            </div>
+        </div>
+        <div class="row justify-content-md-center ">
+            <!-- Section Titile -->
+            <div class="col-md-4 mt-3 contact-widget-section2 wow animated fadeInLeft fs-5" data-wow-delay=".2s">
+              <p>
+                如商品咨詢、訂單詢問，或是其它寶貴意見，歡迎您來訊詢問，我們將會在收到訊息後盡快回覆。謝謝您 !</p>
+
+              <div class="fs-4">
+               <p>ToysYeh</p>
+              </div>
+              <!-- <div class="find-widget">
+               Address: <a href="#">4435 Berkshire Circle Knoxville</a>
+              </div>
+              <div class="find-widget">
+                Phone:  <a href="#">+ 879-890-9767</a>
+              </div>
+              
+              <div class="find-widget">
+                Website:  <a href="https://uny.ro">www.uny.ro</a>
+              </div>
+              <div class="find-widget">
+                 Program: <a href="#">Mon to Sat: 09:30 AM - 10.30 PM</a>
+              </div> -->
+            </div>
+            <!-- contact form -->
+            <div class="col-md-4 wow animated fadeInRight" data-wow-delay=".2s">
+                <form class="shake" role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator">
+                    <!-- Name -->
+                    <div class="form-group label-floating">
+                      <label class="control-label" for="name">姓名</label> <span class="text-danger ">*必填</span>
+                      <input class="form-control" id="name" type="text" name="name" required data-error="Please enter your name">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                    <!-- email -->
+                    <div class="form-group label-floating">
+                      <label class="control-label" for="email">電子信箱</label><span class="text-danger ">*必填</span>
+                      <input class="form-control" id="email" type="email" name="email" required data-error="請填入電子郵件">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                         <!-- telephone -->
+                         <div class="form-group label-floating">
+                          <label class="control-label">聯絡電話</label><span class="text-danger ">*必填</span>
+                          <input class="form-control" id="telephone" type="tel" name="telephone" pattern="[0-9]{4}-[0-9]{6}" required data-error="請填入您的聯絡電話t">
+                          <div class="help-block with-errors"></div>
+                        </div>
+                    <!-- Subject -->
+                    <div class="form-group label-floating">
+                      <label class="control-label">訂單編號</label>
+                      <input class="form-control" id="msg_subject" type="text" name="order-number">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                    <!-- Message -->
+                    <div class="form-group label-floating">
+                        <label for="message" class="control-label">訊息</label>
+                        <textarea class="form-control" rows="3" id="message" name="message" data-error="請填入訊息"></textarea>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <!-- Form Submit -->
+                    <div class="form-submit mt-5">
+                        <button class="btn btn-common btn-danger" type="submit" id="form-submit"><i class="material-icons mdi mdi-message-outline"></i> 確認送出</button>
+                        <div id="msgSubmit" class="h3 text-center hidden"></div>
+                        <div class="clearfix"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+  </section>
+</body>
+
+<footer>
+  <div>
+    <div class="container">
+      <img class="logoimg-bt " src="./image/LOGO24.png" style="width: 200px; height: auto;">
+    </div>
+    <div class="container container-low ">
+      <!-- <div class="contactbox">2024</div> -->
+
+      <!-- <div class="borderfr"> -->
+
+      <div class="contactmail">聯絡信箱：aygedsld@gmail.com</div>
+      <div class="copyright">
+        COPYRIGHT © TOYSYEH. ALL RIGHTS RESERVED.
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+</html>
