@@ -1,0 +1,11 @@
+<template id="header_template">
+  <h1>這是模板中的tag</h1>
+</template>
+
+<header id="header"></header>
+
+<script>
+    const header = document.getElementById('header');
+    const headerTemplate = document.getElementById('header_template');
+    header.appendChild(headerTemplate.content.cloneNode(true));
+</script>
