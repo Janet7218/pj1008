@@ -92,7 +92,7 @@ window.onload = function () {
       <div class="container">
         <img class="logoimg-bt " src="./image/LOGO24.png" style="width: 200px; height: auto;">
       </div>
-      <div class="container container-low ">
+      <div class="container-fluid container-low ">
         <!-- <div class="contactbox">2024</div> -->
   
         <!-- <div class="borderfr"> -->
