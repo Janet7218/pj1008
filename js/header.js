@@ -57,10 +57,10 @@ window.onload = function () {
     
     
         <!-- <div class="container"> -->
-        <div class="container">
+        <div class="container-fluid">
           <div class="black-bar">
-            <ul class="nav-bt nav d-flex justify-content-end">
-              <li class="nav-item fs-5 fw-semibold">
+            <ul class="nav-bt nav justify-content-end">
+              <li class="nav-item  justify-content-end fs-5 fw-semibold">
                 <a class="nav-link text-white" href="index.html">首頁</a>
               </li>
               </li>
