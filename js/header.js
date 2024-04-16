@@ -87,7 +87,7 @@ window.onload = function () {
     
     footer = document.getElementById("footer")
     footer.innerHTML =
-    `<<footer>
+    `<footer>
     <div>
       <div class="container">
         <img class="logoimg-bt " src="./image/LOGO24.png" style="width: 200px; height: auto;">
