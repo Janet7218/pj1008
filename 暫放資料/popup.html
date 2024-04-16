@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function togglePopup() {
+        document.getElementById("popup-1").classList.toggle("active");
+    }
+</script>
+
+<style>
+    .popup .overlay {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.7);
+        z-index: 1;
+        display: none;
+    }
+
+    .popup .content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%)scale(0);
+        background: #fff;
+        width: 550px;
+        height: 260px;
+        z-index: 2;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .popup .close-btn {
+        cursor: pointer;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        width: 30px;
+        height: 30px;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .popup.active .overlay {
+        display: block;
+    }
+
+    .popup.active .content {
+        transition: all 300ms ease-in-out;
+        transform:translate(-50%, -50%)scale(1);
+    }
+
+    .backhome{
+        background:red;
+        margin-top: 20px;
+        color:white;
+        font-size: 20px;
+        font-weight: 800;
+        width:150px;
+        height: 50px;
+        border:none;
+        border-radius: 40px;
+    }
+    hr{
+        width:400px;
+        color:rgb(232, 226, 226);
+    }
+</style>
+
+<body>
+    <div class="popup" id="popup-1">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="close-btn" onclick="togglePopup()">&times;</div>
+            <h1>設置密碼成功!</h1>
+            <h3>回到登入畫面</h3>
+            <hr>
+            <button class="backhome">回首頁</button>
+        </div>
+        
+    </div>
+
+    <button onclick="togglePopup()">open</button>
+
+
+
+</body>
+
+</html>

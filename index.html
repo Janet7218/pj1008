@@ -10,132 +10,202 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="./css/style.css" />
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="js/header.js"></script>
+  <link rel="stylesheet" href="css/style-index.css" />
+  <script src="js/carousel.js"></script>
+
   <title>Document</title>
 </head>
 
 <body>
-  <div class="container">
-    <div class="logoimg">
-      <img src="./image/LOGO24.png">
-    </div>
-    <div class="nav-top">
-      <div class="d-flex justify-content-end">
-        <ul class="nav d-flex flex-row me-1">
-          <li class="nav-item me-3 me-lg-0">
-            <form class="input-group">
-              <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
-                aria-describedby="search-addon" />
-              <div class="input-group-text">
+  <header id="header"></header>
 
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
-                  viewBox="0 0 16 16">
-                  <path
-                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
-                </svg>
-              </div>
-            </form>
-          <li class="nav-item me-3 me-lg-0">
-            <a class="nav-link text-dark" href="#"><i class="fas fa-cog mx-1"></i> 購物車<svg
-                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart"
-                viewBox="0 0 16 16">
-                <path
-                  d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
-              </svg></a>
-          </li>
-
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
-              data-mdb-toggle="dropdown" aria-expanded="false"> <i class="fas fa-user mx-1"></i> 會員登入 <svg
-                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill"
-                viewBox="0 0 16 16">
-                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
-              </svg></a>
-            <!-- Dropdown menu -->
-            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-              <li>
-                <a class="dropdown-item" href="#">會員頁面</a>
-              </li>
-
-              <li>
-                <a class="dropdown-item" href="#">登出</a>
-              </li>
-            </ul>
-      </div>
-    </div>
-
+  <section1>
     <div class="container">
-
-      <div class="black-bar">
-        <ul class="nav-bt nav d-flex justify-content-end">
-          <li class="nav-item fs-5 fw-semibold">
-            <a class="nav-link" href="#">首頁</a>
-          </li>
-          </li>
-          <li class="nav-item fs-5 fw-semibold">
-            <a class="nav-link" href="#">金屬貼</a>
-          </li>
-          </li>
-          <li class="nav-item fs-5 fw-semibold">
-            <a class="nav-link" href="#">特效件</a>
-          </li>
-          <li class="nav-item fs-5 fw-semibold">
-            <a class="nav-link" href="#">地台</a>
-          </li>
-          <li class="nav-item fs-5 fw-semibold">
-            <a class="nav-link" href="#">工具及周邊商品</a>
-          </li>
-          <li class="nav-item fs-5 fw-semibold">
-            <a class="nav-link" href="#">聯絡我們</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <section1>
-    <div class="bann01">
-      <img src="./image/banner02 1.png" style="width:60%; height:auto;">
-
-      <div class="overlay">
-        <p class="h1-01 font-weight-bold">長距離浮遊炮 <br>配件包</p>
-        <div class="btn-2">
-          <a href="#" class="button">進入購買</a>
-        </div>
+      <img src="./image/bab.png" class="img-fluid ">
+      <p class="h1-02 font-weight-bold"> 福岡牛 RX-99ffv</p>
+      <p class="h1-01 font-weight-bold">長距離浮遊炮 <br>配件包</p>
+      <div class="btn-2">
+        <a href="product-detail.html" class="button text-white">進入購買</a>
       </div>
     </div>
   </section1>
-  <section1>
-    <div class="bann01">
-      <img src="./image/pic01.png" style="width:60%; height:auto;">
-
-      <div class="overlay">
-        <p class="h1-01 font-weight-bold">最新上架</p>
-
-        <div class="btn-2">
-          <a href="#" class="button">進入購買</a>
+  <section2>
+    <div class="container">
+      <div class="card" style="background-color: transparent; border:none;">
+        <img src="./image/wingpng02.png" class="img-fluid card-img" style="margin-top: -79px;">
+        <div class="card-img-overlay">
+          <div class="card-body text-light">
+            <p class="card-title hot-sale"> 最新上架</p>
+            <p class="h1-04 font-weight-bold"> 1/100 飛翼剛彈</p>
+            <p class="h1-05 font-weight-bold"> 白雪姬掉毛改件</p>
+            <p class="h1-03 font-weight-bold">( 產品鋼彈需自行另外購買 )</p>
+            <div class="btn-3">
+              <a href="product-detail.html" class=" text-white">進入購買</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </section1>
+  </section2>
+
+
+
+
+  <section3>
+    <div class="container">
+      <img src="./image/Group 77.png" class="img-fluid mt-5">
+      <h1 class="text-center mb-4 hot-sale-01" style="margin-top:-40px;">熱賣商品</h1>
+      <div class="wp-block-group bs-carousel-incr-6 is-layout-flow wp-block-group-is-layout-flow">
+        <div class="wp-block-group__inner-container">
+          <div id="carouselExampleControls6" class="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item">
+                <div class="card">
+                  <div class="img-wrapper"><img decoding="async" src="./image/accessory/SPRX01/SPRX01 (1).jpg"
+                      class="d-block w-100" alt="bootstrap multiple items carousel slide 1 card 1"> </div>
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold ">EW RG 重武裝 HWS 配件包 + 支援戰機 改件</h5>
+                    <p class="card-text">福岡牛 Nu 鋼彈 RX-93ff</p>
+                    <p class="card-text text-danger fw-bold fs-4">NT 560</p>
+                    <a href="#" class="btn btn-primary">加入購物車</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card">
+                  <div class="img-wrapper"><img decoding="async" src="./image/accessory/SPRX02/SPRX02 (1).jpg"
+                      class="d-block w-100" alt="bootstrap multiple items carousel slide 1 card 1"> </div>
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold ">DDB 水星的魔女浮游炮 武器 展示支架</h5>
+                    <p class="card-text">HG RG MG FM</p>
+                    <p class="card-text text-danger fw-bold fs-4">NT 105</p>
+                    <a href="#" class="btn btn-primary">加入購物車</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card">
+                  <div class="img-wrapper"><img decoding="async" src="./image/accessory/SPRX03/SPRX03 (1).jpg"
+                      class="d-block w-100" alt="bootstrap multiple items carousel slide 1 card 1"> </div>
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold ">水星的魔女 增高 延長 腰部改件</h5>
+                    <p class="card-text">HG 風靈 魔靈 </p>
+                    <p class="card-text text-danger fw-bold fs-4">NT 155</p>
+                    <a href="#" class="btn btn-primary">加入購物車</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item active">
+                <div class="card">
+                  <div class="img-wrapper"><img decoding="async" src="./image/accessory/SPRX04/SPRX04 (1).jpg"
+                      class="d-block w-100" alt="bootstrap multiple items carousel slide 1 card 1"> </div>
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold ">能天使 RG HG 1/144 改裝 配件包 武器包 改套</h5>
+                    <p class="card-text">DDB 00 oo DEVISE EXIA </p>
+                    <p class="card-text text-danger fw-bold fs-4">NT 305</p>
+                    <a href="#" class="btn btn-primary">加入購物車</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card">
+                  <div class="img-wrapper"><img decoding="async" src="./image/accessory/SPRX05/MGEX-光之翼.jpg"
+                      class="d-block w-100" alt="bootstrap multiple items carousel slide 1 card 1"> </div>
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold ">MGEX 1/100 攻擊自由鋼彈 光之翼特效件</h5>
+                    <p class="card-text">DDB MGEX </p>
+                    <p class="card-text text-danger fw-bold fs-4">NT 550</p>
+                    <a href="#" class="btn btn-primary">加入購物車</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card">
+                  <div class="img-wrapper"><img decoding="async" src="./image/accessory/SPRX06/SPRX06 (1).jpg"
+                      class="d-block w-100" alt="bootstrap multiple items carousel slide 1 card 1"> </div>
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold ">自由鋼彈 專用 光之翼特效件</h5>
+                    <p class="card-text">DDB MGSD </p>
+                    <p class="card-text text-danger fw-bold fs-4">NT 215</p>
+                    <a href="#" class="btn btn-primary">加入購物車</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card">
+                  <div class="img-wrapper"><img decoding="async" src="./image/accessory/SPRX07/SPRX07 (1).jpg"
+                      class="d-block w-100" alt="bootstrap multiple items carousel slide 1 card 1"> </div>
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold ">福岡牛 RX-93ffν 長距離浮遊炮 武器配件包 改件</h5>
+                    <p class="card-text"> EW RG HG EG 144 附特典</p>
+                    <p class="card-text text-danger fw-bold fs-4">NT 305</p>
+                    <a href="#" class="btn btn-primary">加入購物車</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card">
+                  <div class="img-wrapper"><img decoding="async" src="./image/accessory/SPRX01/SPRX01 (1).jpg"
+                      class="d-block w-100" alt="bootstrap multiple items carousel slide 1 card 1"> </div>
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold ">EW RG 重武裝 HWS 配件包 + 支援戰機 改件</h5>
+                    <p class="card-text">福岡牛 Nu 鋼彈 RX-93ff</p>
+                    <p class="card-text text-danger fw-bold fs-4">NT 560</p>
+                    <a href="#" class="btn btn-primary">加入購物車</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card">
+                  <div class="img-wrapper"><img decoding="async" src="./image/accessory/SPRX01/SPRX01 (1).jpg"
+                      class="d-block w-100" alt="bootstrap multiple items carousel slide 1 card 1"> </div>
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold ">EW RG 重武裝 HWS 配件包 + 支援戰機 改件</h5>
+                    <p class="card-text">福岡牛 Nu 鋼彈 RX-93ff</p>
+                    <p class="card-text text-danger fw-bold fs-4">NT 560</p>
+                    <a href="#" class="btn btn-primary">加入購物車</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls6"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls6"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </section3>
+
+  <section>
+    <div class="container">
+      <img src="./image/Group 78.png" class="img-fluid" style="margin-top: -10px;">
+    </div>
+    <div class="container">
+      <a href="product-accessory.html"><img src="./image/banner.jpg" class="img-fluid mt-5 "></a>
+    </div>
+    </div>
+  </section>
+
+
 </body>
-<footer>
-  <div>
-    <div class="logoimg-bt">
-      <img src="./image/LOGO24.png" style="width: 200px; height: auto;">
-    </div>
-    <div class="container-low">
-      <!-- <div class="contactbox">2024</div> -->
 
-      <div class="borderfr">
-        <div class="contactmail">聯絡信箱：aygedsld@gmail.com</div>
-        <div class="copyright">
-          COPYRIGHT © TOYSYEH. ALL RIGHTS RESERVED.
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
+<footer id="footer"></footer>
+
+
+
+
 
 
 </html>
