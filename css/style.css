@@ -272,6 +272,7 @@ height: 100%;
     color: white;
 }
 
+
 .pro-nav-link:hover {
     color: rgb(246, 255, 0);
 }
@@ -299,7 +300,9 @@ thead {
 
 }
 
-
+.nav-link :active{
+    font-weight: 800;
+}
 
 .table-title {
     width: 400px;
@@ -355,4 +358,14 @@ thead {
     vertical-align: text-top;
     text-align: center;
     fon
+}
+
+.  .form-container {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    /* background-color: rgba(255, 255, 255, 0.7); */
+    padding: 20px;
+    /* border-radius: 10px; */
 }

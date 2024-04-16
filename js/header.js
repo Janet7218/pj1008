@@ -33,7 +33,7 @@ window.onload = function () {
                 </li>
     
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle text-dark" style="font-size:20px;"href="#" id="navbarDropdown" role="button"
+                  <a class="nav-link  text-dark" style="font-size:20px;"href="#" id="navbarDropdown" role="button"
                     data-mdb-toggle="dropdown" aria-expanded="false"> <i class="fas fa-user mx-1"></i> 會員登入 <svg
                       xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
                       class="bi bi-person-fill" viewBox="0 0 16 16">
@@ -41,12 +41,10 @@ window.onload = function () {
                     </svg></a>
                   <!-- Dropdown menu -->
                   <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                    <li>
-                      <a class="dropdown-item" href="member-member-index.html">會員頁面</a>
-                    </li>
+          
     
                     <li>
-                      <a class="dropdown-item" href="#">登出</a>
+                   
                     </li>
                   </ul>
                 </li>
