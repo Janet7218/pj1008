@@ -24,7 +24,7 @@ window.onload = function () {
                     </div>
                   </form>
                 <li class="nav-item me-3 me-lg-0">
-                  <a class="nav-link text-dark" style="font-size:20px;"href="#"><i class="fas fa-cog mx-1"></i> 購物車<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart-fill ms-1 mb-2" viewBox="0 0 16 16">
+                  <a class="nav-link text-dark" style="font-size:20px;"href="shop-shop-cart.html"><i class="fas fa-cog mx-1"></i> 購物車<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart-fill ms-1 mb-2" viewBox="0 0 16 16">
                   <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
                 </svg>
                       <path
@@ -33,7 +33,7 @@ window.onload = function () {
                 </li>
     
                 <li class="nav-item dropdown">
-                  <a class="nav-link  text-dark" style="font-size:20px;"href="#" id="navbarDropdown" role="button"
+                  <a class="nav-link  text-dark" style="font-size:20px;"href="member-index.html" id="navbarDropdown" role="button"
                     data-mdb-toggle="dropdown" aria-expanded="false"> <i class="fas fa-user mx-1"></i> 會員登入 <svg
                       xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
                       class="bi bi-person-fill" viewBox="0 0 16 16">
@@ -90,13 +90,13 @@ window.onload = function () {
       <div class="container">
         <img class="logoimg-bt " src="./image/LOGO24.png" style="width: 200px; height: auto;">
       </div>
-      <div class="container-fluid container-low ">
-        <!-- <div class="contactbox">2024</div> -->
+      <div class="container-fluid container-low">
+        <!-- <div class="">2024</div> -->
   
         <!-- <div class="borderfr"> -->
   
-        <div class="contactmail">聯絡信箱：aygedsld@gmail.com</div>
-        <div class="copyright">
+        <div class="contactmail fs-5 ">聯絡信箱：aygedsld@gmail.com</div>
+        <div class="copyright fs-6 ">
           COPYRIGHT © TOYSYEH. ALL RIGHTS RESERVED.
         </div>
       </div>
