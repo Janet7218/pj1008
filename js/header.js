@@ -59,24 +59,24 @@ window.onload = function () {
           <div class="black-bar">
             <ul class="nav-bt nav justify-content-end">
               <li class="nav-item  justify-content-end fs-5 fw-semibold">
-                <a class="nav-link text-white" href="index.html">首頁</a>
+                <a class="nav-link text-white fs-4 " href="index.html">首頁</a>
               </li>
               </li>
               <li class="nav-item fs-5 fw-semibold">
-                <a class="nav-link text-white" href="product-stickers.html">金屬貼</a>
+                <a class="nav-link text-white fs-4" href="product-stickers.html">金屬貼</a>
               </li>
               </li>
               <li class="nav-item fs-5 fw-semibold">
-                <a class="nav-link text-white" href="product-accessory.html">特效件</a>
+                <a class="nav-link text-white fs-4 " href="product-accessory.html">特效件</a>
               </li>
               <li class="nav-item fs-5 fw-semibold">
-                <a class="nav-link text-white" href="product-base.html">地台</a>
+                <a class="nav-link text-white fs-4 " href="product-base.html">地台</a>
               </li>
               <li class="nav-item fs-5 fw-semibold">
-                <a class="nav-link text-white" href="product-tool.html">工具及周邊商品</a>
+                <a class="nav-link text-white fs-4 " href="product-tool.html">工具及周邊商品</a>
               </li>
               <li class="nav-item fs-5 fw-semibold">
-                <a class="nav-link text-white" href="contact-us.html">聯絡我們</a>
+                <a class="nav-link text-white fs-4 " href="contact-us.html">聯絡我們</a>
               </li>
             </ul>
           </div>
