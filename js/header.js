@@ -59,7 +59,7 @@ window.onload = function () {
           <div class="black-bar">
             <ul class="nav-bt nav justify-content-end">
               <li class="nav-item  justify-content-end fs-5 fw-semibold">
-                <a class="nav-link text-white fs-4 " href="index.html">首頁</a>
+                <a class="nav-link text-white fs-4" href="index.html">首頁</a>
               </li>
               </li>
               <li class="nav-item fs-5 fw-semibold">
