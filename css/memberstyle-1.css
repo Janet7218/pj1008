@@ -1,237 +1,277 @@
-  .b1 {
+.b1 {
     height: 3.188rem;
     /* position: relative; */
     display: inline-block;
-  }
-  .frame {
+}
+
+.frame {
     align-self: stretch;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
     padding: 0 1.25rem;
-  }
-  .gmailcom {
+}
+
+.gmailcom {
     position: relative;
     font-size: 2.875rem;
     font-weight: 600;
     color: #151515;
     text-decoration: none;
     white-space: nowrap;
-  }
-  .frame-parent5,
-  .frame-wrapper2 {
+}
+
+.frame-parent5,
+.frame-wrapper2 {
     display: flex;
     align-items: flex-start;
     max-width: 100%;
-  }
-  .frame-parent5 {
+}
+
+.frame-parent5 {
     width: 30.25rem;
     flex-direction: column;
     justify-content: flex-start;
     gap: 1.75rem;
-  }
-  .frame-wrapper2 {
+}
+
+.frame-wrapper2 {
     width: 44.8rem;
     flex-direction: row;
     justify-content: center;
     padding: 0 1.25rem;
     box-sizing: border-box;
-  }
-  .div8 {
+}
+
+.div8 {
     position: relative;
     font-weight: 100;
-  }
-  .wrapper1 {
+}
+
+.wrapper1 {
     align-self: stretch;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
     padding: 0 1.25rem 0 4.875rem;
-  }
-  .b2 {
+}
+
+.b2 {
     flex: 1;
     position: relative;
-  }
-  .wrapper2 {
+}
+
+.wrapper2 {
     align-self: stretch;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
     padding: 0 0.313rem 0 1.563rem;
-  }
-  .b3 {
+}
+
+.b3 {
     flex: 1;
     position: relative;
-  }
-  .b4,
-  .wrapper3 {
+}
+
+.b4,
+.wrapper3 {
     align-self: stretch;
-  }
-  .wrapper3 {
+}
+
+.wrapper3 {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
     padding: 0 0.438rem 0 1.438rem;
-  }
-  .b4 {
+}
+
+.b4 {
     position: relative;
-  }
-  .frame-parent8,
-  .frame-parent9 {
+}
+
+.frame-parent8,
+.frame-parent9 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-  }
-  .frame-parent9 {
+}
+
+.frame-parent9 {
     align-self: stretch;
     gap: 3.25rem;
-  }
-  .frame-parent8 {
+}
+
+.frame-parent8 {
     width: 9.25rem;
     gap: 4.763rem;
-  }
-  .frame-inner,
-  .i {
+}
+
+.frame-inner,
+.i {
     position: relative;
-  }
-  .i {
+}
+
+.i {
     text-transform: capitalize;
     display: inline-block;
     font-weight: 100;
     min-width: 7.813rem;
-  }
-  .frame-inner {
+}
+
+.frame-inner {
     align-self: stretch;
     max-width: 100%;
     overflow: hidden;
     max-height: 100%;
-  }
-  .i1 {
+}
+
+.i1 {
     position: relative;
     text-transform: capitalize;
     font-weight: 100;
-  }
-  .frame-wrapper4,
-  .group,
-  .wrapper4 {
+}
+
+.frame-wrapper4,
+.group,
+.wrapper4 {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-  }
-  .wrapper4 {
+}
+
+.wrapper4 {
     flex-direction: row;
     padding: 0 0.063rem 0 0.081rem;
     font-size: 1rem;
     color: red;
-  }
-  .frame-wrapper4,
-  .group {
+}
+
+.frame-wrapper4,
+.group {
     max-width: 100%;
-  }
-  .group {
+}
+
+.group {
     flex: 1;
     flex-direction: column;
     gap: 0.531rem;
-  }
-  .frame-wrapper4 {
+}
+
+.frame-wrapper4 {
     align-self: stretch;
     flex-direction: row;
     padding: 0 0 1.125rem 0.125rem;
     box-sizing: border-box;
-  }
-  .i2 {
+}
+
+.i2 {
     position: relative;
     text-transform: capitalize;
     display: inline-block;
     font-weight: 100;
     min-width: 7.813rem;
-  }
-  .vector-icon {
+}
+
+.vector-icon {
     align-self: stretch;
     position: relative;
     max-width: 100%;
     overflow: hidden;
     max-height: 100%;
     flex-shrink: 0;
-  }
-  .i3 {
+}
+
+.i3 {
     position: relative;
     text-transform: capitalize;
     font-weight: 100;
-  }
-  .parent1,
-  .vector-parent,
-  .wrapper5 {
+}
+
+.parent1,
+.vector-parent,
+.wrapper5 {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     max-width: 100%;
-  }
-  .wrapper5 {
+}
+
+.wrapper5 {
     flex-direction: row;
     padding: 0 0.125rem 0 0.144rem;
     box-sizing: border-box;
     flex-shrink: 0;
-  }
-  .parent1,
-  .vector-parent {
+}
+
+.parent1,
+.vector-parent {
     align-self: stretch;
     flex-direction: column;
-  }
-  .vector-parent {
+}
+
+.vector-parent {
     gap: 0.131rem;
     font-size: 1rem;
     color: red;
-  }
-  .parent1 {
+}
+
+.parent1 {
     gap: 0.544rem;
-  }
-  .i4 {
+}
+
+.i4 {
     position: relative;
     text-transform: capitalize;
     display: inline-block;
     font-weight: 100;
     min-width: 7.813rem;
-  }
-  .frame-child1 {
+}
+
+.frame-child1 {
     align-self: stretch;
     position: relative;
     max-width: 100%;
     overflow: hidden;
     max-height: 100%;
-  }
-  .i5 {
+}
+
+.i5 {
     position: relative;
     font-size: 1rem;
     text-transform: capitalize;
     font-weight: 100;
     color: red;
-  }
-  .frame-parent10,
-  .parent2 {
+}
+
+.frame-parent10,
+.parent2 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-  }
-  .parent2 {
+}
+
+.parent2 {
     align-self: stretch;
     gap: 0.525rem;
-  }
-  .frame-parent10 {
+}
+
+.frame-parent10 {
     flex: 1;
     gap: 1.688rem;
     min-width: 22.375rem;
     max-width: 100%;
     font-size: 1.556rem;
     color: #c5c5c5;
-  }
-  .frame-parent7 {
+}
+
+.frame-parent7 {
     align-self: stretch;
     flex-direction: row;
     flex-wrap: wrap;
@@ -239,21 +279,24 @@
     gap: 2.544rem;
     font-size: 1.844rem;
     color: #020202;
-  }
-  .frame-parent6,
-  .frame-parent7,
-  .frame-wrapper3 {
+}
+
+.frame-parent6,
+.frame-parent7,
+.frame-wrapper3 {
     display: flex;
     align-items: flex-start;
     max-width: 100%;
-  }
-  .frame-parent6 {
+}
+
+.frame-parent6 {
     flex: 1;
     flex-direction: column;
     justify-content: flex-start;
     gap: 3.113rem;
-  }
-  .frame-wrapper3 {
+}
+
+.frame-wrapper3 {
     align-self: stretch;
     flex-direction: row;
     justify-content: flex-end;
@@ -261,16 +304,18 @@
     box-sizing: border-box;
     font-size: 1.531rem;
     color: #686464;
-  }
-  .rectangle-div {
+}
+
+.rectangle-div {
     height: 3.581rem;
     width: 19.963rem;
     position: relative;
     border-radius: 28.66px;
     background-color: #b4b4b4;
     display: none;
-  }
-  .div9 {
+}
+
+.div9 {
     width: 2.938rem;
     position: relative;
     font-size: 1.438rem;
@@ -281,13 +326,15 @@
     display: inline-block;
     min-width: 2.938rem;
     z-index: 1;
-  }
-  .frame-child2,
-  .rectangle-parent {
+}
+
+.frame-child2,
+.rectangle-parent {
     width: 19.963rem;
     border-radius: 28.66px;
-  }
-  .rectangle-parent {
+}
+
+.rectangle-parent {
     cursor: pointer;
     border: 0;
     padding: 0.744rem 1.25rem 0.9rem;
@@ -299,17 +346,20 @@
     box-sizing: border-box;
     flex-shrink: 0;
     debug_commit: f6aba90;
-  }
-  .rectangle-parent:hover {
+}
+
+.rectangle-parent:hover {
     background-color: #828282;
-  }
-  .frame-child2 {
+}
+
+.frame-child2 {
     height: 3.581rem;
     position: relative;
     background-color: red;
     display: none;
-  }
-  .div10 {
+}
+
+.div10 {
     width: 2.938rem;
     position: relative;
     font-size: 1.438rem;
@@ -320,14 +370,16 @@
     display: inline-block;
     min-width: 2.938rem;
     z-index: 1;
-  }
-  .frame-parent11,
-  .rectangle-group {
+}
+
+.frame-parent11,
+.rectangle-group {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-  }
-  .rectangle-group {
+}
+
+.rectangle-group {
     cursor: pointer;
     border: 0;
     padding: 0.744rem 1.25rem 0.9rem;
@@ -338,18 +390,21 @@
     box-sizing: border-box;
     flex-shrink: 0;
     debug_commit: f6aba90;
-  }
-  .rectangle-group:hover {
+}
+
+.rectangle-group:hover {
     background-color: #ff2626;
-  }
-  .frame-parent11 {
+}
+
+.frame-parent11 {
     width: 45.506rem;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 1.25rem;
     max-width: 100%;
-  }
-  .frame-parent4 {
+}
+
+.frame-parent4 {
     width: 48.275rem;
     display: flex;
     flex-direction: column;
@@ -357,15 +412,17 @@
     justify-content: flex-start;
     gap: 4.075rem;
     max-width: 100%;
-  }
-  .component-21-parent,
-  .frame-section {
+}
+
+.component-21-parent,
+.frame-section {
     display: flex;
     align-items: flex-start;
     box-sizing: border-box;
     max-width: 100%;
-  }
-  .frame-section {
+}
+
+.frame-section {
     width: 88.025rem;
     flex-direction: row;
     justify-content: center;
@@ -374,264 +431,131 @@
     font-size: 2.644rem;
     color: #020202;
     font-family: Inter;
-  }
-  /* .component-21-parent {
-    align-self: stretch;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding: 0 0 0 0.063rem;
-    gap: 3.263rem;
-  } */
-  /* .logo-01-2-icon {
-    height: 13.85rem;
-    width: 19.144rem;
-    position: absolute;
-    margin: 0 !important;
-    top: -3.781rem;
-    right: 33.481rem;
-    object-fit: contain;
-    z-index: 3;
-  }
-  .frame-child3 {
-    width: 90rem;
-    height: 14.438rem;
-    position: relative;
-    background-color: #000;
-    display: none;
-    max-width: 100%;
-  }
-  .frame-child4 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-  }
-  .aygedsldgmailcom {
-    position: absolute;
-    top: 0.931rem;
-    left: 5.125rem;
-    display: inline-block;
-    width: 18.813rem;
-    height: 1.488rem;
-    white-space: nowrap;
-    z-index: 2;
-  }
-  .vector-group {
-    height: 2.913rem;
-    flex: 1;
-    position: relative;
-    max-width: 100%;
-  }
-  .frame-wrapper5 {
-    width: 33.188rem;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 0 1.625rem;
-    box-sizing: border-box;
-    max-width: 100%;
-  }
-  .frame-child5 {
-    height: 3.781rem;
-    width: 9.313rem;
-    position: relative;
-    border-radius: 17px;
-    background-color: #e9e9e9;
-    display: none;
-  }
-  .div11 {
-    position: relative;
-    display: inline-block;
-    min-width: 4.938rem;
-    z-index: 4;
-  } */
-  /* .frame-wrapper6,
-  .rectangle-parent2 {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-  }
-  .rectangle-parent2 {
-    border-radius: 17px;
-    background-color: #e9e9e9;
-    justify-content: flex-start;
-    padding: 0.869rem 2.188rem 0.494rem;
-    z-index: 3;
-  }
-  .frame-wrapper6 {
-    align-self: stretch;
-    justify-content: flex-end;
-  }
-  .rectangle-footer {
-    width: 100%;
-    height: 11.963rem;
-    position: absolute;
-    margin: 0 !important;
-    right: 0;
-    bottom: -3.625rem;
-    left: 0;
-    border-radius: 23px;
-    border: 7px solid #e9e9e9;
-    box-sizing: border-box;
-    z-index: 2;
-  }
-  .copyright-toysyeh-all-right {
-    position: relative;
-    font-size: 1.25rem;
-    color: #fff;
-    display: inline-block;
-    max-width: 100%;
-    z-index: 1;
-  }
-  .frame-parent12,
-  .rectangle-parent1 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    box-sizing: border-box;
-    max-width: 100%;
-  }
-  .frame-parent12 {
-    align-self: stretch;
-    padding: 0 0 2.325rem 27.938rem;
-    position: relative;
-    gap: 0.744rem;
-    font-size: 2rem;
-  }
-  .rectangle-parent1 {
-    flex: 1;
-    background-color: #000;
-    padding: 3.156rem 2.188rem 0;
-  }
-  .div,
-  .logo-01-2-parent {
-    position: relative;
-    display: flex;
-    justify-content: flex-start;
-  }
-  .logo-01-2-parent {
-    align-self: stretch;
-    flex-direction: row;
-    align-items: flex-start;
-    max-width: 100%;
-  }
-  .div {
-    width: 100%;
-    background-color: #fff;
-    overflow: hidden;
-    flex-direction: column;
-    align-items: flex-end;
-    padding: 1.438rem 0 0;
-    box-sizing: border-box;
-    gap: 6.363rem;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    font-size: 1.25rem;
-    color: #000;
-    font-family: Inter; */
-  }
-  @media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 1200px) {
     .frame-parent12 {
-      padding-left: 13.938rem;
-      box-sizing: border-box;
+        padding-left: 13.938rem;
+        box-sizing: border-box;
     }
-  }
-  @media screen and (max-width: 1050px) {
+}
+
+@media screen and (max-width: 1050px) {
     .subtract-parent {
-      padding-left: 2.438rem;
-      padding-right: 2.438rem;
-      box-sizing: border-box;
+        padding-left: 2.438rem;
+        padding-right: 2.438rem;
+        box-sizing: border-box;
     }
+
     .b1 {
-      font-size: 2.125rem;
+        font-size: 2.125rem;
     }
+
     .gmailcom {
-      font-size: 2.313rem;
+        font-size: 2.313rem;
     }
+
     .frame-parent4 {
-      gap: 2.063rem;
+        gap: 2.063rem;
     }
+
     .div11 {
-      font-size: 1.625rem;
+        font-size: 1.625rem;
     }
-  }
-  @media screen and (max-width: 750px) {
+}
+
+@media screen and (max-width: 750px) {
     .frame-parent {
-      gap: 1.438rem;
+        gap: 1.438rem;
     }
+
     .frame-parent10 {
-      min-width: 100%;
+        min-width: 100%;
     }
+
     .frame-parent7 {
-      gap: 1.25rem;
+        gap: 1.25rem;
     }
+
     .frame-parent6 {
-      gap: 1.563rem;
+        gap: 1.563rem;
     }
+
     .component-21-parent {
-      gap: 1.625rem;
+        gap: 1.625rem;
     }
+
     .frame-parent12 {
-      padding-left: 6.938rem;
-      box-sizing: border-box;
+        padding-left: 6.938rem;
+        box-sizing: border-box;
     }
+
     .div {
-      gap: 3.188rem;
+        gap: 3.188rem;
     }
-  }
-  @media screen and (max-width: 450px) {
+}
+
+@media screen and (max-width: 450px) {
     .subtract-parent {
-      gap: 1.438rem;
+        gap: 1.438rem;
     }
+
     .b1 {
-      font-size: 1.563rem;
+        font-size: 1.563rem;
     }
+
     .gmailcom {
-      font-size: 1.75rem;
+        font-size: 1.75rem;
     }
+
     .div8 {
-      font-size: 1.25rem;
+        font-size: 1.25rem;
     }
+
     .wrapper1 {
-      padding-left: 1.25rem;
-      box-sizing: border-box;
+        padding-left: 1.25rem;
+        box-sizing: border-box;
     }
+
     .b2,
     .b3,
     .b4 {
-      font-size: 1.5rem;
+        font-size: 1.5rem;
     }
+
     .i,
     .i2,
     .i4 {
-      font-size: 1.25rem;
+        font-size: 1.25rem;
     }
+
     .div10,
     .div9 {
-      font-size: 1.125rem;
+        font-size: 1.125rem;
     }
+
     .frame-parent4 {
-      gap: 1rem;
+        gap: 1rem;
     }
+
     .aygedsldgmailcom {
-      font-size: 1rem;
+        font-size: 1rem;
     }
+
     .div11 {
-      font-size: 1.188rem;
+        font-size: 1.188rem;
     }
+
     .copyright-toysyeh-all-right {
-      font-size: 1rem;
+        font-size: 1rem;
     }
+
     .frame-parent12 {
-      padding-left: 1.25rem;
-      box-sizing: border-box;
+        padding-left: 1.25rem;
+        box-sizing: border-box;
     }
+
     .div {
-      gap: 1.563rem;
+        gap: 1.563rem;
     }
-  }
+}
